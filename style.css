@@ -25,7 +25,9 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius
 ul.plain{list-style:none}
 ul.plain li{margin-bottom:.9rem}
 .contact{display:flex;flex-wrap:wrap;gap:1.5rem;margin-top:1.5rem}
-.portrait{display:block;width:100%;max-width:340px;height:auto;margin-top:2.5rem;border-radius:4px}
+.about-card{display:grid;grid-template-columns:200px 1fr;gap:2rem;align-items:start}
+.about-card .contact{margin-top:.5rem}
+.portrait{display:block;width:200px;height:200px;object-fit:cover;border-radius:4px}
 footer{padding:1rem 0 4rem;color:var(--muted);font-size:.85rem}
 /* Article pages */
 .post h1{font-size:2.5rem;margin-bottom:1.25rem}
@@ -36,4 +38,4 @@ footer{padding:1rem 0 4rem;color:var(--muted);font-size:.85rem}
 .post img{display:block;width:100%;max-height:420px;object-fit:cover;margin:2rem 0 .5rem}
 .post .caption{color:var(--muted);font-size:.85rem;margin-bottom:2rem}
 .post .disclaimer{color:var(--muted);font-size:.9rem;border-top:1px solid var(--line);padding-top:1.25rem;margin-top:2rem}
-@media(max-width:560px){h1{font-size:2.2rem}.post h1{font-size:2rem}.lead{font-size:1.15rem}h2{font-size:1.6rem;margin-top:4.5rem}main{padding-top:3.5rem}header .wrap{padding-top:2rem}}
+@media(max-width:560px){.about-card{grid-template-columns:1fr;gap:1.5rem}h1{font-size:2.2rem}.post h1{font-size:2rem}.lead{font-size:1.15rem}h2{font-size:1.6rem;margin-top:4.5rem}main{padding-top:3.5rem}header .wrap{padding-top:2rem}}
