@@ -25,6 +25,7 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius
 ul.plain{list-style:none}
 ul.plain li{margin-bottom:.9rem}
 .contact{display:flex;flex-wrap:wrap;gap:1.5rem;margin-top:1.5rem}
+.portrait{display:block;width:100%;max-width:340px;height:auto;margin-top:2.5rem;border-radius:4px}
 footer{padding:1rem 0 4rem;color:var(--muted);font-size:.85rem}
 /* Article pages */
 .post h1{font-size:2.5rem;margin-bottom:1.25rem}
