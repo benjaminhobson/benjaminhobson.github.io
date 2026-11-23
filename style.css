@@ -26,7 +26,7 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius
 ul.plain{list-style:none}
 ul.plain li{margin-bottom:.9rem}
 .contact{display:flex;flex-wrap:wrap;gap:1.5rem;margin-top:1.5rem}
-.about-card{display:grid;grid-template-columns:200px 1fr;gap:2rem;align-items:start}
+.about-card{display:grid;grid-template-columns:200px 1fr;gap:2.5rem;align-items:center}
 .about-card .contact{margin-top:.5rem}
 .portrait{display:block;width:200px;height:200px;object-fit:cover;border-radius:4px}
 footer{padding:1rem 0 4rem;color:var(--muted);font-size:.85rem}
